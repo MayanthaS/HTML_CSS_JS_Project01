@@ -172,5 +172,71 @@
 }
 .main-wrap .product .product-details .colors .form .select-color label input:checked + span{
     transform: scale(.7);
-    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #011627;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #0576d2;
+}
+.main-wrap .product .product-details .quantity{
+margin-bottom: 50px;
+
+}
+.main-wrap .product .product-details .quantity .select-quantity{
+    display: flex;
+    align-items: center;
+}
+.main-wrap .product .product-details .quantity .select-quantity h3{
+    width: 70px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #011627;
+}
+.main-wrap .product .product-details .quantity .select-quantity input{
+    width: 60px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.main-wrap .product .product-details.sub-btn{
+ padding: 0 30px;
+}
+.main-wrap .product .product-details .submit{
+    width: 100%;
+    padding: 10px;
+    border:0;
+    outline:0 ;
+    background: #0077b6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    transform: 4s linear;
+    position: relative;
+    overflow: hidden;
+}
+.main-wrap .product .product-details .submit:hover{
+    background: #00b4d8;
+    
+}
+.main-wrap .product .product-details .submit::before{
+  content: '';
+  position: absolute;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.main-wrap .product .product-details .sub-btn .submit:hover::before{
+    animation: light .4s linear forwards;
+}
+@keyframes light{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
 }
