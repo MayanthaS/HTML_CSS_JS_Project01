@@ -54,7 +54,7 @@
 
 .main-wrap .product .product-details{
     flex-basis: 50%;
-    background: #fff;
+    background: #e8e6e6dc;
     box-shadow: -10px 1px 10px 10px rgba(0, 0, 0, 0.1);
     padding: 40px 30px 40px 40px;
 }
@@ -166,4 +166,11 @@
 }
 .main-wrap .product .product-details .colors .form .select-color .color-4{
     background: #ffd100;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-4{
+    background: #fff;
+}
+.main-wrap .product .product-details .colors .form .select-color label input:checked + span{
+    transform: scale(.7);
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #011627;
 }
