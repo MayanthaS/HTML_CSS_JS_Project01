@@ -123,3 +123,44 @@
     font-weight: 600;
     color: #00b4d8;
 }
+.main-wrap .product .product-details .colors{
+    margin-bottom: 20px;
+}
+.main-wrap .product .product-details .colors .form .select-color{
+    display: flex;
+    align-items: center;
+}
+.main-wrap .product .product-details .colors .form .select-color h3{
+    width: 70px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #011627;
+}
+.main-wrap .product .product-details .colors .form .select-color label{
+    display: flex;
+    align-items: center;
+}
+.main-wrap .product .product-details .colors .form .select-color input{
+    display: none;
+}
+.main-wrap .product .product-details .colors .form .select-color span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-1{
+    background: #d90429;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-2{
+    background: #38b000;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-3{
+    background: #0081a7;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-4{
+    background: #ffd100;
+}
