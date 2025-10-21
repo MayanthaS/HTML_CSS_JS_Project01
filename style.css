@@ -137,7 +137,7 @@
     font-weight: 500;
     color: #011627;
 }
-.main-wrap .product .product-details .colors .form .select-color label{
+.main-wrap .product .product-details .colors .form .select-color label .size{
     display: flex;
     align-items: center;
 }
@@ -145,12 +145,15 @@
     display: none;
 }
 .main-wrap .product .product-details .colors .form .select-color span{
-    display: inline-block;
+    display: flex;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
+}
+.main-wrap .product .product-details .colors .form .select-color .color-0{
+    background: gray;
 }
 .main-wrap .product .product-details .colors .form .select-color .color-1{
     background: #d90429;
